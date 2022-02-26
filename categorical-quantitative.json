@@ -1,0 +1,15 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Categorical vs Quantitative",
+  "data": {
+    "url": "https://raw.githubusercontent.com/atiyamirza7/csc474/main/imports-85.json"
+  },
+  "width": 400,
+  "height": 300,
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "fuel-type", "type": "nominal"},
+    "y": {"field": "price", "type": "quantitative"}
+  },
+  "config": {}
+}
