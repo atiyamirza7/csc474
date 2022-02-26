@@ -1,0 +1,15 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Quantitative vs Quantitative",
+  "data": {
+    "url": "https://raw.githubusercontent.com/atiyamirza7/csc474/main/imports-85.json"
+  },
+  "width": 375,
+  "height": 375,
+  "mark": "line",
+  "encoding": {
+    "x": {"field": "engine-size", "type": "quantitative"},
+    "y": {"field": "horsepower", "type": "quantitative"}
+  },
+  "config": {}
+}
